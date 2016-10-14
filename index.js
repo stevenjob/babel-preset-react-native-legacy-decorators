@@ -1,7 +1,7 @@
 
 module.exports = {
   presets: [
-    require('babel-plugin-transform-decorators-legacy').default,
+    require('./preset-transform-legacy-decorators'),
     require('babel-preset-react-native')
   ]
 };
